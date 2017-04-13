@@ -1,9 +1,9 @@
 {
-  "name": "eslint-config-xo-react",
+  "name": "eslint-config-xo-inferno",
   "version": "0.11.1",
-  "description": "ESLint shareable config for React to be used with eslint-config-xo",
+  "description": "ESLint shareable config for Inferno to be used with eslint-config-xo",
   "license": "MIT",
-  "repository": "sindresorhus/eslint-config-xo-react",
+  "repository": "teehemkay/eslint-config-xo-inferno",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -21,7 +21,7 @@
   ],
   "keywords": [
     "❤️",
-    "react",
+    "inferno",
     "jsx",
     "eslintconfig",
     "xo",
@@ -53,12 +53,12 @@
   "devDependencies": {
     "ava": "*",
     "eslint": "^3.1.0",
-    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-inferno": "^6.10.4",
     "is-plain-obj": "^1.0.0",
     "temp-write": "^3.1.0"
   },
   "peerDependencies": {
     "eslint": ">=3",
-    "eslint-plugin-react": ">=6.10.0"
+    "eslint-plugin-inferno": "^6.10.4"
   }
 }

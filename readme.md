@@ -1,12 +1,12 @@
-# eslint-config-xo-react [![Build Status](https://travis-ci.org/sindresorhus/eslint-config-xo-react.svg?branch=master)](https://travis-ci.org/sindresorhus/eslint-config-xo-react)
+# eslint-config-xo-inferno [![Build Status](https://travis-ci.org/teehemkay/eslint-config-xo-inferno.svg?branch=master)](https://travis-ci.org/teehemkay/eslint-config-xo-inferno)
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for React to be used with [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo)
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Inferno](https://infernojs.org) to be used with [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo)
 
 
 ## Install
 
 ```
-$ npm install --save-dev eslint-config-xo eslint-config-xo-react eslint-plugin-react
+$ npm install --save-dev eslint-config-xo eslint-config-xo-inferno eslint-plugin-inferno
 ```
 
 
@@ -18,7 +18,7 @@ Add some ESLint config to your package.json:
 {
 	"name": "my-awesome-project",
 	"eslintConfig": {
-		"extends": ["xo", "xo-react"]
+		"extends": ["xo", "xo-inferno"]
 	}
 }
 ```
@@ -27,7 +27,7 @@ Or to .eslintrc:
 
 ```json
 {
-	"extends": ["xo", "xo-react"]
+	"extends": ["xo", "xo-inferno"]
 }
 ```
 
@@ -35,7 +35,7 @@ Use the `space` sub-config if you want 2 space indentation instead of tabs:
 
 ```json
 {
-	"extends": ["xo", "xo-react/space"]
+	"extends": ["xo", "xo-inferno/space"]
 }
 ```
 
@@ -43,7 +43,7 @@ You can also mix it with a [XO](https://github.com/sindresorhus/xo) sub-config:
 
 ```json
 {
-	"extends": ["xo/esnext", "xo-react"]
+	"extends": ["xo/esnext", "xo-inferno"]
 }
 ```
 
@@ -53,14 +53,14 @@ You can also mix it with a [XO](https://github.com/sindresorhus/xo) sub-config:
 ### Use with XO
 
 ```
-$ npm install --save-dev eslint-config-xo-react eslint-plugin-react
+$ npm install --save-dev eslint-config-xo-inferno eslint-plugin-inferno
 ```
 
 ```json
 {
 	"name": "my-awesome-project",
 	"xo": {
-		"extends": "xo-react"
+		"extends": "xo-inferno"
 	}
 }
 ```
